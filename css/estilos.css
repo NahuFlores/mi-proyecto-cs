@@ -1,0 +1,912 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1b1b1bfd;
+    
+    
+}
+
+/* HEADER */
+
+.cabz{
+    object-fit: cover;
+    background-color: #1b1b1bfd;
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navegacion a{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Amiri', serif;
+}
+
+/* NAV ANIMACION */
+
+.pre{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+.pre:hover{
+    background-color: #555964;
+    box-shadow: 0 0 10px #555964, 0 0 40px
+    #555964, 0 0 80px #555964;
+    transition-delay: 0,5s;
+}
+
+.his{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+.his:hover{
+    background-color: #555964;
+    box-shadow: 0 0 10px #555964, 0 0 40px
+    #555964, 0 0 80px #555964;
+    transition-delay: 0,5s;
+}
+
+.req{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+.req:hover{
+    background-color: #E48614;
+    box-shadow: 0 0 10px #E48614, 0 0 40px
+    #E48614, 0 0 80px #E48614;
+    transition-delay: 0,5s;
+}
+
+.cat{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+.cat:hover{
+    background-color: #E48614;
+    box-shadow: 0 0 10px #E48614, 0 0 40px
+    #E48614, 0 0 80px #E48614;
+    transition-delay: 0,5s;
+}
+/* CUERPO PRINCIPAL */
+
+/* BANNER */
+
+.contenedor-banner{
+    background-image: url(../css/img/IMAGENPRINCIPAL.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bandera{
+    display: flex;
+    width: 100%;
+    padding-top: 13px;
+    justify-content: space-around;
+}
+
+.text{
+    position: absolute;
+    width: 61%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    font-display: 100px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    
+
+}
+
+.text .text-p1{
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Alata', sans-serif;
+}
+
+.asd123{
+    
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 40px;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    line-height: 160.828%;
+    font-family: 'Alata', sans-serif;
+}
+
+
+.asd1234{
+    
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 40px;
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Alata', sans-serif;
+    line-height: 160.828%;
+}
+
+/* PRESENTACION */
+
+.presentacion{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.texttitulopre{
+    display: flex;
+    position: absolute;
+    width: 43%;
+    height: 6%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 81px;
+    letter-spacing: 2.04px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #343434;
+    font-size: 18px;
+    font-family: 'STIX Two Text', serif;
+}
+
+.imgbase{
+    display: flex;
+    padding-top: 50px;
+}
+
+.base{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}   
+
+.textpre{
+    position: absolute;
+    width: 98%;
+    height: 50%;
+    padding-left: 75%;
+    padding-bottom: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #343434;
+    font-size: 16px;
+    text-align: start;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* HISTORIA DE JUEGO */
+
+.historia{
+    width: 100%;
+    background-color: #fff;
+}
+
+.imghistoria{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+.imghistoria h2{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #343434;
+    font-size: 24px;
+    letter-spacing: 16.08px;
+    font-family: 'STIX Two Text', serif;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 300px;
+}
+
+.video1{
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 90%;
+    box-shadow: 0px 9px 85px 30px #3F3C3C;
+}
+
+/* CATEGORIAS CS 1.6 */
+
+.categorias{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.headtitulocs1{
+    display: flex;
+    justify-content: end;
+}
+
+.imgbasecategoria{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.imgbasecategoria img{
+    margin-top: -7%;
+    margin-left: -4.6%;
+    margin-right: -4.6%;
+}
+
+.wallpapercs1{
+    margin-top: -7%;
+    margin-left: -4.6%;
+    margin-right: -4.6%;
+}
+.mc{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #E48614;
+}
+.mc{
+    position: absolute;
+    right: 30px;
+    bottom: 660px
+}
+.imgmc{
+    position: absolute;
+    right: 30px;
+    bottom: 660px
+}
+
+.textimgmc{
+    position: absolute;
+    text-align: center;
+    right: 39%;
+    bottom: 65%;
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.imgmc:hover{
+    transform: translateY(-3px) scale(1.05);
+    transition: 0.5s;
+}
+
+.imgep{
+    position: absolute;
+    right: 1.7%;
+    bottom: 53%;
+}
+
+.textimgep{
+    position: absolute;
+    text-align: center;
+    right: 36%;
+    bottom: 65%;
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.imgep:hover{
+    transform: translateY(-3px) scale(1.05);
+    transition: 0.5s;
+}
+
+.imgcc{
+    position: absolute;
+    right: 1.7%;
+    bottom: 31%;
+}
+
+.textimgcc{
+    position: absolute;
+    text-align: center;
+    right: 33%;
+    bottom: 65%;
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.imgcc:hover{
+    transform: translateY(-3px) scale(1.05);
+    transition: 0.5s;
+}
+
+.imgrs{
+    position: absolute;
+    right: 1%;
+    bottom: 9%;
+}
+
+.textimgrs{
+    position: absolute;
+    text-align: center;
+    right: 39%;
+    bottom: 65%;
+    color: #FFF;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.imgrs:hover{
+    transform: translateY(-3px) scale(1.05);
+    transition: 0.5s;
+}
+
+/* MAPAS COMPETITIVO CS 1.6 */
+
+.mapascompetitivos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+    align-items: center;
+}   
+
+.bannermc{
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.titulomc{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'STIX Two Text', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    bottom: 60%;
+    right: 30%;
+    letter-spacing: 16.08px;
+}
+
+.titulomainmc{
+    color: #C3C3C3;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'STIX Two Text', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 16.08px;
+}
+
+.mapa1{
+    position: absolute;
+    width: 158px;
+    height: 300px;
+    left: 25vh;
+}
+
+.mapa1text{
+    color: #747171;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 21px */
+    
+}
+
+.mapa2{
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    bottom: 17vh;
+    left: 18vh;
+}
+
+.mapa3{
+    position: absolute;
+    width: 258px;
+    height: 300px;
+    left: 18vh;
+    bottom: -10vh;
+}
+
+.mapa4{
+    position: absolute;
+    width: 158px;
+    height: 300px;
+    right: 25vh;
+}
+
+.mapa5{
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    bottom: 17vh;
+    right: 18vh;
+}
+
+.mapa6{
+    position: absolute;
+    width: 258px;
+    height: 300px;
+    right: 18vh;
+    bottom: -10vh;
+}
+
+/* EQUIPOS COMPETITIVOS CS 1.6 */
+
+.equiposprofesionales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+    align-items: center;
+}   
+
+.bannerep{
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.tituloep{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'STIX Two Text', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    bottom: 60%;
+    right: 25%;
+    letter-spacing: 16.08px;
+}
+
+.titulomainep{
+    color: #C3C3C3;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'STIX Two Text', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 16.08px;
+}
+
+.equipo1{
+    position: absolute;
+    width: 158px;
+    height: 300px;
+    left: 25vh;
+}
+
+.equipo1text{
+    color: #747171;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 21px */
+    
+}
+
+.equipo2{
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    bottom: 17vh;
+    left: 18vh;
+}
+
+.equipo3{
+    position: absolute;
+    width: 258px;
+    height: 300px;
+    left: 18vh;
+    bottom: -10vh;
+}
+
+.equipo4{
+    position: absolute;
+    width: 158px;
+    height: 300px;
+    right: 25vh;
+}
+
+.equipo5{
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    bottom: 17vh;
+    right: 18vh;
+}
+
+.equipo6{
+    position: absolute;
+    width: 258px;
+    height: 300px;
+    right: 18vh;
+    bottom: -10vh;
+}
+
+/* CONFIGURACION COMPETITIVA CS 1.6 */
+
+.configuracioncompetitiva{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+    align-items: center;
+    background-color: rgba(245, 245, 220, 0);
+}   
+
+.bannercc{
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.titulocc{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'STIX Two Text', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    bottom: 60%;
+    right: 22%;
+    letter-spacing: 16.08px;
+}
+
+.basetip{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    
+}
+
+.texttip{
+    position: absolute;
+    width: 16%;
+    height: 56%;
+    right: 85px;
+    top: 21%;
+    padding: 50px;
+}
+
+.ptexttip{
+    color: #3F3C3C;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.titulotip{
+    position: absolute;
+    right: 30%;
+    top: 11%;
+}
+
+.texttitulotip{
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'STIX Two Text', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120.828%; /* 28.999px */
+    letter-spacing: 4.2px;
+}
+
+.basetip2{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.texttip2{
+    position: absolute;
+    width: 30%;
+    left: 9%;
+    bottom: 20.5%;
+}
+
+.ptexttip2{
+    color: #3F3C3C;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 80%;
+    
+}
+
+.titulotip2{
+    position: absolute;
+    left: 20%;
+    top: 21%;
+}
+
+/* CATEGORIAS CS 2 */
+
+.weid2{
+    background-color: #1F293E;
+}
+
+.categoriascs2{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    background-color: #1F293E;
+}
+
+/* MAPAS COMPETITIVO CS 2 */
+
+.mapascompetitivoscs2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+    align-items: center;
+    background-color: #1F293E;
+}
+
+/* EQUIPOS COMPETITIVOS CS 2 */
+
+.equiposprofesionalescs2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+    align-items: center;
+    background-color: #1F293E;
+}   
+
+/* CONFIGURACION COMPETITIVA CS 2*/
+
+.configuracioncompetitivacs2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+    align-items: center;
+    background-color: #1F293E;
+}   
+
+/* REQUISITOS DEL SISTEMA*/
+
+.requisitosdelsistema{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+    align-items: center;
+    background: linear-gradient(to right,
+    #1b1b1bfd 0%,
+    #1b1b1bfd 50%,
+    #1F293E 50%,
+    #1F293E 100%);
+    margin-bottom: 1px;
+}
+
+.bannerrs2{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.bannerrs2 img{
+    box-shadow: 0px -200px 68px -210px #d1cece73;
+}
+
+
+.basers{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 91.6%
+}
+
+.basers img{
+    margin-top: -7%;
+    margin-left: -4.6%;
+    margin-right: -4.6%;
+}
+
+.contenidotitulors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulomainrs{
+    color: #C3C3C3;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'STIX Two Text', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120.828%; /* 28.999px */
+    letter-spacing: 16.08px;
+    padding: 0 50px;
+}
+
+.titulomainrs2{
+    color: #F99D46;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'STIX Two Text', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120.828%; /* 28.999px */
+    letter-spacing: 16.08px;
+}
+
+.textmitadcs1{
+    position: absolute;
+    width: 183px;
+    height: 300px;
+    left: 2.5vh;
+    bottom: 65vh;
+}
+
+.parrafotextrs{
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 21px */
+    color: #3F3C3C;
+    font-size: 20px;
+
+}
+
+.textmitadcs2{
+    position: absolute;
+    width: 183px;
+    height: 300px;
+    right: 16vh;
+    top: 40vh;
+}
+
+.parrafotextrs2{
+    color: #fff;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 21px */
+    font-size: 20px;
+    width: 200%;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-image: url(../css/img/footerfondov2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.textfooter{
+    color: var(--white-shades-90, #E4E4E7);
+    font-family: Lexend;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    margin: 5px;
+    font-family: 'Lexend', sans-serif;
+    
+}
+
+.iconmensajeft{
+    position: absolute;
+    left: 43.2%;
+    top: 46.9%;
+}
